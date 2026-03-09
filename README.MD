@@ -48,8 +48,8 @@ At each step it either explores (random action) or exploits (best Q-value). The 
 |---|---|---|
 | `alpha` | 0.12 | Learning rate |
 | `gamma` | 0.95 | How much future rewards count |
-| `exploration_rate` | 0.35 | Starting % of random moves |
-| `exploration_reduction` | 2e-4 | Decay per episode |
+| `exploration_rate` | 0.35 | Starting probability of random moves |
+| `exploration_reduction` | 2e-4 | Decay in probability of random moves per episode |
 | `NUM_EPISODES` | 2000 | Training episodes |
 
 ---
