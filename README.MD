@@ -8,7 +8,7 @@ To run it, type this in your console:
 
 ```
 pip install numpy matplotlib
-python treasure_hunt.py
+python treasure_hunt_RL.py
 ```
 
 ---
@@ -17,7 +17,7 @@ python treasure_hunt.py
 
 The initialized board looks as follows:
 
-![Initial board](img\initialized_board.png)
+![Initial board](img/initialized_board.png)
 
 | Symbol | Meaning |
 |---|---|
@@ -56,7 +56,7 @@ At each step it either explores (random action) or exploits (best Q-value). The 
 
 ## Output
 
-![Initial board](img\treasure_hunt_RL_fig.png)
+![Initial board](img/treasure_hunt_RL_fig.png)
 
 Steps per episode (log scale) should trend down; total reward per episode should trend up toward -10 as the agent finds shorter, trap-free routes.
 
@@ -64,4 +64,4 @@ After training the script also prints the learnt best move per tile alongside th
 
 The learnt moves look as follows:
 
-![Learnt moves](img\learnt_moves.png)
+![Learnt moves](img/learnt_moves.png)
