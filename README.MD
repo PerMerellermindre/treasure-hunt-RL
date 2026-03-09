@@ -1,6 +1,6 @@
 # Treasure hunt (Q-learning from scratch)
 
-A custom reinforcement learning program in which an agent learns, through trial and error, to navigate a 10×10 grid from top-left to bottom-right, while avoiding traps and walls. This program was made in an effort to understand details of reinforcement learning better, and ended up a valuable lession on how Q-learning works. This is inspired by the simple maze example presented in [this article by Neha Desaraju](https://towardsdatascience.com/hands-on-introduction-to-reinforcement-learning-in-python-da07f7aaca88).
+A custom reinforcement learning program in which an agent learns, through trial and error, to navigate a 10×10 grid from top-left to bottom-right, while avoiding traps and walls. This program was made in an effort to understand details of reinforcement learning better, and ended up a valuable lession in how Q-learning works. This is inspired by the simple maze example presented in [this article by Neha Desaraju](https://towardsdatascience.com/hands-on-introduction-to-reinforcement-learning-in-python-da07f7aaca88).
 
 When I first attempted to approach the game with a G-table (one value per tile), the agent kept converging on trap tiles because correct-path tiles accumulated more negative value from timeout episodes. Switching to a Q-table per `(tile, action)` pair fixed it.
 
