@@ -66,4 +66,4 @@ The learnt moves look as follows:
 
 ![Learnt moves](img/learnt_moves.png)
 
-From this you can glean that after only 2000 episodes, the algorithm has found three paths from the start (top-left tile) to the end (bottom-right tile) that maximize the reward. It is also nearly always able to recover when it strays away from these paths. Nevertheless, with the given configuration, some pockets of the board normally lead to unrecoverable paths. This can be mitigated by changing configurations, such as increasing the number of episodes.
+From this you can glean that after only 2000 episodes, the algorithm has found three main paths from the start (top-left tile) to the end (bottom-right tile) that maximize the reward. It is also nearly always able to recover when it strays away from these paths. Nevertheless, with the given configuration, some pockets of the board normally lead to unrecoverable paths. This can be mitigated by changing configurations, such as increasing the number of episodes.
